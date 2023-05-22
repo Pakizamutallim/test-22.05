@@ -1,0 +1,70 @@
+.head {
+  background-image: url("https://cdn1.epicgames.com/ue/product/Screenshot/HighresScreenshot00006-1920x1080-4492761cda27fc89c9cc1e4979551e95.jpg?resize=1&w=1920");
+  width: 100%;
+  height: 60vh;
+  background-size: 100%;
+  background-position: center;
+}
+.head .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+.head .menu ul li {
+  color: white;
+  font-size: 20px;
+}
+.head .menu .phone {
+  background-color: orange;
+}
+
+.room-list {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+.room-list .text {
+  margin: 5% 0;
+}
+.room-list .text h3 {
+  margin-bottom: 2%;
+}
+.room-list .item {
+  display: flex;
+  width: 100%;
+}
+.room-list .item .room .room-img {
+  background-image: url("https://cdn.home-designing.com/wp-content/uploads/2014/07/loft-hammock-workspace.jpeg");
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 4%;
+}
+.room-list .item .room h2 {
+  margin-bottom: 4%;
+}
+.room-list .item .room span {
+  margin-bottom: 4%;
+}
+.room-list .item .room div {
+  margin-bottom: 7%;
+}
+.room-list .item .room .room-style {
+  margin-top: 7%;
+}
+
+.client {
+  height: 60vh;
+  background-color: gold;
+  text-align: center;
+}
+.client h2 {
+  margin: 5% 0;
+}
+
+.end {
+  height: 60vh;
+}/*# sourceMappingURL=style.css.map */
