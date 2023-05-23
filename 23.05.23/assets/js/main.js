@@ -1,0 +1,17 @@
+const button = document.getElementById("btn")
+
+  button.addEventListener("click", function(){
+    fetch('https://6469bba8183682d614455b66.mockapi.io/users', {
+        method: "POST", 
+        headers: {
+        "Content-Type": "application/json",
+        },
+        body: {
+            name: document.querySelector(".name").value,
+            image: document.querySelector(".image").value,
+            info: document.querySelector(".info").value,
+            date: document.querySelector(".date").value 
+        }
+    }).then(res=>console.log(res))
+
+})
